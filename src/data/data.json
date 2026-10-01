@@ -1,0 +1,1161 @@
+{
+  "auth": {
+    "currentUserId": "USR-001"
+  },
+
+  "users": [
+    {
+      "id": "USR-001",
+      "role": "reception",
+      "name": "Sarah Mitchell",
+      "email": "sarah.mitchell@hospital.com",
+      "password" : "123456",
+      "phone": "+1-555-010-0001",
+      "avatar": "SM",
+      "gender": "Female",
+      "department": "Front Desk",
+      "shift": "08:00 - 16:00",
+      "status": "Active",
+      "createdAt": "2023-01-15T08:00:00Z",
+      "updatedAt": "2025-11-01T09:00:00Z"
+    },
+    {
+      "id": "USR-002",
+      "role": "reception",
+      "name": "James Carter",
+      "email": "james.carter@hospital.com",
+      "password" : "5754346",
+      "phone": "+1-555-010-0002",
+      "avatar": "JC",
+      "gender": "Male",
+      "department": "Front Desk",
+      "shift": "16:00 - 00:00",
+      "status": "Active",
+      "createdAt": "2023-03-10T08:00:00Z",
+      "updatedAt": "2025-10-15T10:00:00Z"
+    },
+    {
+      "id": "USR-003",
+      "role": "doctor",
+      "name": "Dr. Michael Reynolds",
+      "email": "m.reynolds@hospital.com",
+      "password" : "7643578",
+      "phone": "+1-555-020-0003",
+      "avatar": "MR",
+      "gender": "Male",
+      "specialization": "Cardiology",
+      "experienceYears": 14,
+      "department": "Cardiology",
+      "status": "Active",
+      "createdAt": "2021-06-01T08:00:00Z",
+      "updatedAt": "2025-09-20T08:00:00Z"
+    },
+    {
+      "id": "USR-004",
+      "role": "doctor",
+      "name": "Dr. Emily Lawson",
+      "email": "e.lawson@hospital.com",
+      "password" : "3689643",
+      "phone": "+1-555-020-0004",
+      "avatar": "EL",
+      "gender": "Female",
+      "specialization": "Dermatology",
+      "experienceYears": 9,
+      "department": "Dermatology",
+      "status": "Active",
+      "createdAt": "2022-02-14T08:00:00Z",
+      "updatedAt": "2025-08-10T08:00:00Z"
+    },
+    {
+      "id": "USR-005",
+      "role": "doctor",
+      "name": "Dr. David Kim",
+      "email": "d.kim@hospital.com",
+      "password" : "247895435",
+      "phone": "+1-555-020-0005",
+      "avatar": "DK",
+      "gender": "Male",
+      "specialization": "Orthopedics",
+      "experienceYears": 11,
+      "department": "Orthopedics",
+      "status": "Active",
+      "createdAt": "2021-09-05T08:00:00Z",
+      "updatedAt": "2025-11-05T08:00:00Z"
+    },
+    {
+      "id": "USR-006",
+      "role": "doctor",
+      "name": "Dr. Olivia Bennett",
+      "email": "o.bennett@hospital.com",
+      "password" : "5689642",
+      "phone": "+1-555-020-0006",
+      "avatar": "OB",
+      "gender": "Female",
+      "specialization": "Neurology",
+      "experienceYears": 7,
+      "department": "Neurology",
+      "status": "Active",
+      "createdAt": "2023-04-20T08:00:00Z",
+      "updatedAt": "2025-10-01T08:00:00Z"
+    }
+  ],
+
+  "patients": [
+    {
+      "id": "PT-001",
+      "name": "Thomas Hughes",
+      "gender": "Male",
+      "age": 47,
+      "phone": "+1-555-101-0001",
+      "address": "14 Maple Street, Springfield, IL 62701",
+      "doctorId": "USR-003",
+      "type": "Outpatient",
+      "status": "InTreatment",
+      "admissionId": null,
+      "createdAt": "2025-10-01T09:00:00Z",
+      "updatedAt": "2026-03-12T09:30:00Z"
+    },
+    {
+      "id": "PT-002",
+      "name": "Margaret Collins",
+      "gender": "Female",
+      "age": 62,
+      "phone": "+1-555-101-0002",
+      "address": "8 Oak Avenue, Chicago, IL 60601",
+      "doctorId": "USR-003",
+      "type": "Inpatient",
+      "status": "Admitted",
+      "admissionId": "ADM-001",
+      "createdAt": "2025-11-15T11:00:00Z",
+      "updatedAt": "2026-03-12T08:00:00Z"
+    },
+    {
+      "id": "PT-003",
+      "name": "Robert Jenkins",
+      "gender": "Male",
+      "age": 34,
+      "phone": "+1-555-101-0003",
+      "address": "22 Pine Road, Peoria, IL 61602",
+      "doctorId": "USR-004",
+      "type": "Outpatient",
+      "status": "Discharged",
+      "admissionId": null,
+      "createdAt": "2025-09-20T10:00:00Z",
+      "updatedAt": "2026-02-28T14:00:00Z"
+    },
+    {
+      "id": "PT-004",
+      "name": "Linda Foster",
+      "gender": "Female",
+      "age": 41,
+      "phone": "+1-555-101-0004",
+      "address": "5 Birch Lane, Rockford, IL 61101",
+      "doctorId": "USR-004",
+      "type": "Outpatient",
+      "status": "InTreatment",
+      "admissionId": null,
+      "createdAt": "2025-12-01T08:30:00Z",
+      "updatedAt": "2026-03-12T10:00:00Z"
+    },
+    {
+      "id": "PT-005",
+      "name": "Daniel Watts",
+      "gender": "Male",
+      "age": 55,
+      "phone": "+1-555-101-0005",
+      "address": "37 Cedar Blvd, Aurora, IL 60505",
+      "doctorId": "USR-005",
+      "type": "Inpatient",
+      "status": "Admitted",
+      "admissionId": "ADM-002",
+      "createdAt": "2026-01-10T07:00:00Z",
+      "updatedAt": "2026-03-12T08:00:00Z"
+    },
+    {
+      "id": "PT-006",
+      "name": "Patricia Moore",
+      "gender": "Female",
+      "age": 29,
+      "phone": "+1-555-101-0006",
+      "address": "11 Willow Drive, Joliet, IL 60432",
+      "doctorId": "USR-005",
+      "type": "Outpatient",
+      "status": "InTreatment",
+      "admissionId": null,
+      "createdAt": "2026-02-05T09:00:00Z",
+      "updatedAt": "2026-03-12T11:00:00Z"
+    },
+    {
+      "id": "PT-007",
+      "name": "Steven Harris",
+      "gender": "Male",
+      "age": 68,
+      "phone": "+1-555-101-0007",
+      "address": "3 Elm Court, Naperville, IL 60540",
+      "doctorId": "USR-006",
+      "type": "Inpatient",
+      "status": "Admitted",
+      "admissionId": "ADM-003",
+      "createdAt": "2026-02-20T12:00:00Z",
+      "updatedAt": "2026-03-12T08:00:00Z"
+    },
+    {
+      "id": "PT-008",
+      "name": "Nancy Walker",
+      "gender": "Female",
+      "age": 53,
+      "phone": "+1-555-101-0008",
+      "address": "9 Sunset Ave, Evanston, IL 60201",
+      "doctorId": "USR-006",
+      "type": "Outpatient",
+      "status": "Discharged",
+      "admissionId": null,
+      "createdAt": "2025-08-10T10:00:00Z",
+      "updatedAt": "2026-03-05T16:00:00Z"
+    },
+    {
+      "id": "PT-009",
+      "name": "Christopher Adams",
+      "gender": "Male",
+      "age": 38,
+      "phone": "+1-555-101-0009",
+      "address": "20 River Road, Waukegan, IL 60085",
+      "doctorId": "USR-003",
+      "type": "Outpatient",
+      "status": "InTreatment",
+      "admissionId": null,
+      "createdAt": "2026-01-18T09:30:00Z",
+      "updatedAt": "2026-03-12T09:00:00Z"
+    },
+    {
+      "id": "PT-010",
+      "name": "Barbara Scott",
+      "gender": "Female",
+      "age": 44,
+      "phone": "+1-555-101-0010",
+      "address": "6 Forest Path, Decatur, IL 62521",
+      "doctorId": "USR-004",
+      "type": "Outpatient",
+      "status": "InTreatment",
+      "admissionId": null,
+      "createdAt": "2026-02-14T10:00:00Z",
+      "updatedAt": "2026-03-12T10:30:00Z"
+    },
+    {
+      "id": "PT-011",
+      "name": "Kevin Turner",
+      "gender": "Male",
+      "age": 31,
+      "phone": "+1-555-101-0011",
+      "address": "17 Aspen Way, Bloomington, IL 61701",
+      "doctorId": "USR-005",
+      "type": "Outpatient",
+      "status": "Discharged",
+      "admissionId": null,
+      "createdAt": "2025-07-22T11:00:00Z",
+      "updatedAt": "2026-01-30T14:00:00Z"
+    },
+    {
+      "id": "PT-012",
+      "name": "Helen Brooks",
+      "gender": "Female",
+      "age": 72,
+      "phone": "+1-555-101-0012",
+      "address": "2 Meadow Lane, Champaign, IL 61820",
+      "doctorId": "USR-006",
+      "type": "Inpatient",
+      "status": "Admitted",
+      "admissionId": "ADM-004",
+      "createdAt": "2026-03-01T08:00:00Z",
+      "updatedAt": "2026-03-12T08:00:00Z"
+    }
+  ],
+
+  "admissions": [
+    {
+      "id": "ADM-001",
+      "patientId": "PT-002",
+      "room": "201",
+      "floor": "2",
+      "bedNumber": "B-04",
+      "admittedBy": "USR-001",
+      "date": "2026-03-01T10:30:00Z",
+      "expectedDischarge": "2026-03-20",
+      "notes": "Monitoring post-cardiac event. Bed rest advised.",
+      "createdAt": "2026-03-01T10:30:00Z",
+      "updatedAt": "2026-03-12T08:00:00Z"
+    },
+    {
+      "id": "ADM-002",
+      "patientId": "PT-005",
+      "room": "305",
+      "floor": "3",
+      "bedNumber": "B-02",
+      "admittedBy": "USR-001",
+      "date": "2026-02-25T09:00:00Z",
+      "expectedDischarge": "2026-03-18",
+      "notes": "Post-op orthopedic surgery. Physical therapy ongoing.",
+      "createdAt": "2026-02-25T09:00:00Z",
+      "updatedAt": "2026-03-12T08:00:00Z"
+    },
+    {
+      "id": "ADM-003",
+      "patientId": "PT-007",
+      "room": "410",
+      "floor": "4",
+      "bedNumber": "B-01",
+      "admittedBy": "USR-002",
+      "date": "2026-03-05T14:00:00Z",
+      "expectedDischarge": "2026-03-25",
+      "notes": "Neurological evaluation in progress. MRI scheduled.",
+      "createdAt": "2026-03-05T14:00:00Z",
+      "updatedAt": "2026-03-12T08:00:00Z"
+    },
+    {
+      "id": "ADM-004",
+      "patientId": "PT-012",
+      "room": "402",
+      "floor": "4",
+      "bedNumber": "B-03",
+      "admittedBy": "USR-001",
+      "date": "2026-03-10T11:00:00Z",
+      "expectedDischarge": "2026-03-22",
+      "notes": "Seizure episode. Under observation and anticonvulsant therapy.",
+      "createdAt": "2026-03-10T11:00:00Z",
+      "updatedAt": "2026-03-12T08:00:00Z"
+    }
+  ],
+
+  "appointments": [
+    {
+      "id": "APT-001",
+      "patientId": "PT-001",
+      "doctorId": "USR-003",
+      "type": "Consultation",
+      "date": "2026-03-12",
+      "time": "09:00",
+      "durationMinutes": 30,
+      "status": "Ongoing",
+      "notes": "Initial cardiology consultation. Patient reports chest discomfort.",
+      "createdAt": "2026-03-10T14:00:00Z",
+      "updatedAt": "2026-03-12T09:05:00Z"
+    },
+    {
+      "id": "APT-002",
+      "patientId": "PT-002",
+      "doctorId": "USR-003",
+      "type": "Follow-up",
+      "date": "2026-03-12",
+      "time": "10:00",
+      "durationMinutes": 20,
+      "status": "Scheduled",
+      "notes": "Routine follow-up for inpatient. Review recent ECG results.",
+      "createdAt": "2026-03-11T08:00:00Z",
+      "updatedAt": "2026-03-11T08:00:00Z"
+    },
+    {
+      "id": "APT-003",
+      "patientId": "PT-003",
+      "doctorId": "USR-004",
+      "type": "Consultation",
+      "date": "2026-03-11",
+      "time": "11:00",
+      "durationMinutes": 30,
+      "status": "Completed",
+      "notes": "Eczema follow-up. Prescription renewed.",
+      "createdAt": "2026-03-09T09:00:00Z",
+      "updatedAt": "2026-03-11T11:35:00Z"
+    },
+    {
+      "id": "APT-004",
+      "patientId": "PT-004",
+      "doctorId": "USR-004",
+      "type": "Follow-up",
+      "date": "2026-03-12",
+      "time": "11:30",
+      "durationMinutes": 20,
+      "status": "Scheduled",
+      "notes": "Check progress of acne treatment plan.",
+      "createdAt": "2026-03-10T10:00:00Z",
+      "updatedAt": "2026-03-10T10:00:00Z"
+    },
+    {
+      "id": "APT-005",
+      "patientId": "PT-005",
+      "doctorId": "USR-005",
+      "type": "Follow-up",
+      "date": "2026-03-12",
+      "time": "09:30",
+      "durationMinutes": 25,
+      "status": "Scheduled",
+      "notes": "Post-surgery follow-up. Evaluate mobility and pain levels.",
+      "createdAt": "2026-03-11T07:30:00Z",
+      "updatedAt": "2026-03-11T07:30:00Z"
+    },
+    {
+      "id": "APT-006",
+      "patientId": "PT-006",
+      "doctorId": "USR-005",
+      "type": "Consultation",
+      "date": "2026-03-12",
+      "time": "10:30",
+      "durationMinutes": 30,
+      "status": "Ongoing",
+      "notes": "New patient. Complaint of persistent knee pain.",
+      "createdAt": "2026-03-11T09:00:00Z",
+      "updatedAt": "2026-03-12T10:35:00Z"
+    },
+    {
+      "id": "APT-007",
+      "patientId": "PT-007",
+      "doctorId": "USR-006",
+      "type": "Follow-up",
+      "date": "2026-03-12",
+      "time": "12:00",
+      "durationMinutes": 20,
+      "status": "Scheduled",
+      "notes": "Inpatient neuro check. Review MRI report.",
+      "createdAt": "2026-03-11T10:00:00Z",
+      "updatedAt": "2026-03-11T10:00:00Z"
+    },
+    {
+      "id": "APT-008",
+      "patientId": "PT-008",
+      "doctorId": "USR-006",
+      "type": "Consultation",
+      "date": "2026-03-10",
+      "time": "14:00",
+      "durationMinutes": 30,
+      "status": "Completed",
+      "notes": "Discharged with migraine management plan.",
+      "createdAt": "2026-03-08T11:00:00Z",
+      "updatedAt": "2026-03-10T14:35:00Z"
+    },
+    {
+      "id": "APT-009",
+      "patientId": "PT-009",
+      "doctorId": "USR-003",
+      "type": "Consultation",
+      "date": "2026-03-12",
+      "time": "11:00",
+      "durationMinutes": 30,
+      "status": "Scheduled",
+      "notes": "Evaluation for irregular heartbeat. Holter monitor requested.",
+      "createdAt": "2026-03-11T12:00:00Z",
+      "updatedAt": "2026-03-11T12:00:00Z"
+    },
+    {
+      "id": "APT-010",
+      "patientId": "PT-010",
+      "doctorId": "USR-004",
+      "type": "Follow-up",
+      "date": "2026-03-12",
+      "time": "13:00",
+      "durationMinutes": 20,
+      "status": "Scheduled",
+      "notes": "Review results of skin biopsy.",
+      "createdAt": "2026-03-10T13:00:00Z",
+      "updatedAt": "2026-03-10T13:00:00Z"
+    },
+    {
+      "id": "APT-011",
+      "patientId": "PT-011",
+      "doctorId": "USR-005",
+      "type": "Surgery",
+      "date": "2026-01-28",
+      "time": "08:00",
+      "durationMinutes": 90,
+      "status": "Completed",
+      "notes": "Arthroscopic knee surgery completed successfully.",
+      "createdAt": "2026-01-20T09:00:00Z",
+      "updatedAt": "2026-01-28T09:40:00Z"
+    },
+    {
+      "id": "APT-012",
+      "patientId": "PT-012",
+      "doctorId": "USR-006",
+      "type": "Follow-up",
+      "date": "2026-03-12",
+      "time": "14:00",
+      "durationMinutes": 20,
+      "status": "Scheduled",
+      "notes": "Review anticonvulsant response and seizure diary.",
+      "createdAt": "2026-03-11T11:00:00Z",
+      "updatedAt": "2026-03-11T11:00:00Z"
+    },
+    {
+      "id": "APT-013",
+      "patientId": "PT-001",
+      "doctorId": "USR-003",
+      "type": "Follow-up",
+      "date": "2026-03-19",
+      "time": "09:00",
+      "durationMinutes": 20,
+      "status": "Scheduled",
+      "notes": "Review echocardiogram results.",
+      "createdAt": "2026-03-12T09:45:00Z",
+      "updatedAt": "2026-03-12T09:45:00Z"
+    },
+    {
+      "id": "APT-014",
+      "patientId": "PT-006",
+      "doctorId": "USR-005",
+      "type": "Surgery",
+      "date": "2026-03-20",
+      "time": "08:30",
+      "durationMinutes": 60,
+      "status": "Scheduled",
+      "notes": "Planned arthroscopy if conservative treatment fails.",
+      "createdAt": "2026-03-12T11:00:00Z",
+      "updatedAt": "2026-03-12T11:00:00Z"
+    },
+    {
+      "id": "APT-015",
+      "patientId": "PT-009",
+      "doctorId": "USR-003",
+      "type": "Follow-up",
+      "date": "2026-03-12",
+      "time": "11:45",
+      "durationMinutes": 15,
+      "status": "Cancelled",
+      "notes": "Patient requested cancellation.",
+      "createdAt": "2026-03-11T15:00:00Z",
+      "updatedAt": "2026-03-12T07:30:00Z"
+    }
+  ],
+
+  "queue": [
+    {
+      "id": "Q-001",
+      "appointmentId": "APT-001",
+      "token": "C-001",
+      "status": "WithDoctor",
+      "waitTime": 0,
+      "checkInTime": "2026-03-12T08:52:00Z",
+      "createdAt": "2026-03-12T08:52:00Z",
+      "updatedAt": "2026-03-12T09:02:00Z"
+    },
+    {
+      "id": "Q-002",
+      "appointmentId": "APT-002",
+      "token": "C-002",
+      "status": "Waiting",
+      "waitTime": 35,
+      "checkInTime": "2026-03-12T09:10:00Z",
+      "createdAt": "2026-03-12T09:10:00Z",
+      "updatedAt": "2026-03-12T09:10:00Z"
+    },
+    {
+      "id": "Q-003",
+      "appointmentId": "APT-005",
+      "token": "O-001",
+      "status": "Waiting",
+      "waitTime": 20,
+      "checkInTime": "2026-03-12T09:15:00Z",
+      "createdAt": "2026-03-12T09:15:00Z",
+      "updatedAt": "2026-03-12T09:15:00Z"
+    },
+    {
+      "id": "Q-004",
+      "appointmentId": "APT-006",
+      "token": "O-002",
+      "status": "WithDoctor",
+      "waitTime": 0,
+      "checkInTime": "2026-03-12T10:20:00Z",
+      "createdAt": "2026-03-12T10:20:00Z",
+      "updatedAt": "2026-03-12T10:35:00Z"
+    },
+    {
+      "id": "Q-005",
+      "appointmentId": "APT-004",
+      "token": "D-001",
+      "status": "Waiting",
+      "waitTime": 15,
+      "checkInTime": "2026-03-12T11:20:00Z",
+      "createdAt": "2026-03-12T11:20:00Z",
+      "updatedAt": "2026-03-12T11:20:00Z"
+    },
+    {
+      "id": "Q-006",
+      "appointmentId": "APT-009",
+      "token": "C-003",
+      "status": "Waiting",
+      "waitTime": 45,
+      "checkInTime": "2026-03-12T10:30:00Z",
+      "createdAt": "2026-03-12T10:30:00Z",
+      "updatedAt": "2026-03-12T10:30:00Z"
+    },
+    {
+      "id": "Q-007",
+      "appointmentId": "APT-007",
+      "token": "N-001",
+      "status": "Waiting",
+      "waitTime": 25,
+      "checkInTime": "2026-03-12T11:45:00Z",
+      "createdAt": "2026-03-12T11:45:00Z",
+      "updatedAt": "2026-03-12T11:45:00Z"
+    },
+    {
+      "id": "Q-008",
+      "appointmentId": "APT-003",
+      "token": "D-002",
+      "status": "Done",
+      "waitTime": 0,
+      "checkInTime": "2026-03-11T10:55:00Z",
+      "createdAt": "2026-03-11T10:55:00Z",
+      "updatedAt": "2026-03-11T11:38:00Z"
+    },
+    {
+      "id": "Q-009",
+      "appointmentId": "APT-008",
+      "token": "N-002",
+      "status": "Done",
+      "waitTime": 0,
+      "checkInTime": "2026-03-10T13:50:00Z",
+      "createdAt": "2026-03-10T13:50:00Z",
+      "updatedAt": "2026-03-10T14:38:00Z"
+    }
+  ],
+
+  "medicalRecords": [
+    {
+      "id": "MR-001",
+      "patientId": "PT-001",
+      "doctorId": "USR-003",
+      "appointmentId": "APT-001",
+      "vitals": {
+        "bloodPressure": "138/90",
+        "heartRate": 88,
+        "temperature": 37.0,
+        "oxygenSaturation": 97,
+        "weight": 84,
+        "height": 178
+      },
+      "medications": [
+        {
+          "name": "Metoprolol",
+          "dosage": "25mg",
+          "frequency": "Twice daily",
+          "startDate": "2026-03-12",
+          "endDate": null
+        }
+      ],
+      "notes": [
+        {
+          "text": "Patient presents with intermittent chest tightness. ECG ordered. Advised lifestyle modifications.",
+          "date": "2026-03-12T09:20:00Z"
+        }
+      ],
+      "createdAt": "2026-03-12T09:20:00Z",
+      "updatedAt": "2026-03-12T09:20:00Z"
+    },
+    {
+      "id": "MR-002",
+      "patientId": "PT-002",
+      "doctorId": "USR-003",
+      "appointmentId": "APT-002",
+      "vitals": {
+        "bloodPressure": "145/95",
+        "heartRate": 82,
+        "temperature": 36.9,
+        "oxygenSaturation": 96,
+        "weight": 91,
+        "height": 172
+      },
+      "medications": [
+        {
+          "name": "Lisinopril",
+          "dosage": "10mg",
+          "frequency": "Once daily",
+          "startDate": "2026-03-01",
+          "endDate": null
+        },
+        {
+          "name": "Aspirin",
+          "dosage": "81mg",
+          "frequency": "Once daily",
+          "startDate": "2026-03-01",
+          "endDate": null
+        }
+      ],
+      "notes": [
+        {
+          "text": "Patient admitted post-cardiac event. Hemodynamically stable. Monitor BP closely.",
+          "date": "2026-03-01T11:00:00Z"
+        },
+        {
+          "text": "Day 11 inpatient. BP improving. Continue current medications.",
+          "date": "2026-03-12T10:15:00Z"
+        }
+      ],
+      "createdAt": "2026-03-01T11:00:00Z",
+      "updatedAt": "2026-03-12T10:15:00Z"
+    },
+    {
+      "id": "MR-003",
+      "patientId": "PT-003",
+      "doctorId": "USR-004",
+      "appointmentId": "APT-003",
+      "vitals": {
+        "bloodPressure": "118/76",
+        "heartRate": 70,
+        "temperature": 36.6,
+        "oxygenSaturation": 99,
+        "weight": 72,
+        "height": 175
+      },
+      "medications": [
+        {
+          "name": "Hydrocortisone Cream 1%",
+          "dosage": "Topical",
+          "frequency": "Twice daily",
+          "startDate": "2026-03-11",
+          "endDate": "2026-04-11"
+        }
+      ],
+      "notes": [
+        {
+          "text": "Eczema flare-up on forearms. Prescription renewed. Follow up in 4 weeks if no improvement.",
+          "date": "2026-03-11T11:25:00Z"
+        }
+      ],
+      "createdAt": "2026-03-11T11:25:00Z",
+      "updatedAt": "2026-03-11T11:25:00Z"
+    },
+    {
+      "id": "MR-004",
+      "patientId": "PT-004",
+      "doctorId": "USR-004",
+      "appointmentId": "APT-004",
+      "vitals": {
+        "bloodPressure": "112/72",
+        "heartRate": 68,
+        "temperature": 36.5,
+        "oxygenSaturation": 99,
+        "weight": 64,
+        "height": 165
+      },
+      "medications": [
+        {
+          "name": "Doxycycline",
+          "dosage": "100mg",
+          "frequency": "Once daily",
+          "startDate": "2026-02-20",
+          "endDate": "2026-04-20"
+        }
+      ],
+      "notes": [
+        {
+          "text": "Moderate acne responding well to treatment. Continue antibiotic course for 8 more weeks.",
+          "date": "2026-03-12T11:45:00Z"
+        }
+      ],
+      "createdAt": "2026-02-20T10:00:00Z",
+      "updatedAt": "2026-03-12T11:45:00Z"
+    },
+    {
+      "id": "MR-005",
+      "patientId": "PT-005",
+      "doctorId": "USR-005",
+      "appointmentId": "APT-005",
+      "vitals": {
+        "bloodPressure": "122/80",
+        "heartRate": 74,
+        "temperature": 36.8,
+        "oxygenSaturation": 98,
+        "weight": 88,
+        "height": 180
+      },
+      "medications": [
+        {
+          "name": "Ibuprofen",
+          "dosage": "400mg",
+          "frequency": "Three times daily",
+          "startDate": "2026-02-25",
+          "endDate": "2026-03-25"
+        },
+        {
+          "name": "Omeprazole",
+          "dosage": "20mg",
+          "frequency": "Once daily",
+          "startDate": "2026-02-25",
+          "endDate": "2026-03-25"
+        }
+      ],
+      "notes": [
+        {
+          "text": "Post-op Day 1. Left knee arthroscopy successful. Wound clean, no signs of infection.",
+          "date": "2026-02-26T08:00:00Z"
+        },
+        {
+          "text": "Day 15 inpatient. Mobility improving with physiotherapy. On schedule for discharge.",
+          "date": "2026-03-12T09:45:00Z"
+        }
+      ],
+      "createdAt": "2026-02-26T08:00:00Z",
+      "updatedAt": "2026-03-12T09:45:00Z"
+    },
+    {
+      "id": "MR-006",
+      "patientId": "PT-006",
+      "doctorId": "USR-005",
+      "appointmentId": "APT-006",
+      "vitals": {
+        "bloodPressure": "116/74",
+        "heartRate": 72,
+        "temperature": 36.7,
+        "oxygenSaturation": 99,
+        "weight": 60,
+        "height": 163
+      },
+      "medications": [
+        {
+          "name": "Naproxen",
+          "dosage": "500mg",
+          "frequency": "Twice daily",
+          "startDate": "2026-03-12",
+          "endDate": "2026-03-26"
+        }
+      ],
+      "notes": [
+        {
+          "text": "Right knee pain for 3 months. X-ray shows mild cartilage wear. Conservative treatment initiated.",
+          "date": "2026-03-12T10:50:00Z"
+        }
+      ],
+      "createdAt": "2026-03-12T10:50:00Z",
+      "updatedAt": "2026-03-12T10:50:00Z"
+    },
+    {
+      "id": "MR-007",
+      "patientId": "PT-007",
+      "doctorId": "USR-006",
+      "appointmentId": "APT-007",
+      "vitals": {
+        "bloodPressure": "150/95",
+        "heartRate": 80,
+        "temperature": 37.1,
+        "oxygenSaturation": 96,
+        "weight": 76,
+        "height": 170
+      },
+      "medications": [
+        {
+          "name": "Levetiracetam",
+          "dosage": "500mg",
+          "frequency": "Twice daily",
+          "startDate": "2026-03-05",
+          "endDate": null
+        }
+      ],
+      "notes": [
+        {
+          "text": "Admitted following tonic-clonic seizure. MRI brain ordered. Anticonvulsant therapy initiated.",
+          "date": "2026-03-05T15:00:00Z"
+        },
+        {
+          "text": "Day 7 inpatient. No further seizure episodes. Awaiting MRI report.",
+          "date": "2026-03-12T12:10:00Z"
+        }
+      ],
+      "createdAt": "2026-03-05T15:00:00Z",
+      "updatedAt": "2026-03-12T12:10:00Z"
+    },
+    {
+      "id": "MR-008",
+      "patientId": "PT-008",
+      "doctorId": "USR-006",
+      "appointmentId": "APT-008",
+      "vitals": {
+        "bloodPressure": "119/77",
+        "heartRate": 66,
+        "temperature": 36.4,
+        "oxygenSaturation": 99,
+        "weight": 68,
+        "height": 168
+      },
+      "medications": [
+        {
+          "name": "Sumatriptan",
+          "dosage": "50mg",
+          "frequency": "As needed",
+          "startDate": "2026-03-10",
+          "endDate": null
+        },
+        {
+          "name": "Amitriptyline",
+          "dosage": "10mg",
+          "frequency": "Once daily at bedtime",
+          "startDate": "2026-03-10",
+          "endDate": null
+        }
+      ],
+      "notes": [
+        {
+          "text": "Chronic migraine. 3–4 episodes per month. Preventive therapy started. Discharged with diary.",
+          "date": "2026-03-10T14:30:00Z"
+        }
+      ],
+      "createdAt": "2026-03-10T14:30:00Z",
+      "updatedAt": "2026-03-10T14:30:00Z"
+    },
+    {
+      "id": "MR-009",
+      "patientId": "PT-009",
+      "doctorId": "USR-003",
+      "appointmentId": "APT-009",
+      "vitals": {
+        "bloodPressure": "130/85",
+        "heartRate": 92,
+        "temperature": 36.9,
+        "oxygenSaturation": 97,
+        "weight": 78,
+        "height": 176
+      },
+      "medications": [],
+      "notes": [
+        {
+          "text": "Palpitations reported for 2 weeks. 12-lead ECG shows occasional PVCs. Holter monitor issued.",
+          "date": "2026-03-12T11:20:00Z"
+        }
+      ],
+      "createdAt": "2026-03-12T11:20:00Z",
+      "updatedAt": "2026-03-12T11:20:00Z"
+    },
+    {
+      "id": "MR-010",
+      "patientId": "PT-012",
+      "doctorId": "USR-006",
+      "appointmentId": "APT-012",
+      "vitals": {
+        "bloodPressure": "142/88",
+        "heartRate": 76,
+        "temperature": 37.2,
+        "oxygenSaturation": 97,
+        "weight": 62,
+        "height": 162
+      },
+      "medications": [
+        {
+          "name": "Valproate",
+          "dosage": "500mg",
+          "frequency": "Twice daily",
+          "startDate": "2026-03-10",
+          "endDate": null
+        }
+      ],
+      "notes": [
+        {
+          "text": "Admitted after breakthrough seizure. Valproate levels subtherapeutic — dose adjusted.",
+          "date": "2026-03-10T12:00:00Z"
+        },
+        {
+          "text": "Day 2. Seizure-free. Tolerating new dose. EEG scheduled for tomorrow.",
+          "date": "2026-03-12T14:05:00Z"
+        }
+      ],
+      "createdAt": "2026-03-10T12:00:00Z",
+      "updatedAt": "2026-03-12T14:05:00Z"
+    }
+  ],
+
+  "invoices": [
+    {
+      "id": "INV-001",
+      "patientId": "PT-001",
+      "appointmentId": "APT-001",
+      "items": [
+        { "description": "Cardiology Consultation", "amount": 300 },
+        { "description": "ECG", "amount": 150 }
+      ],
+      "amount": 450,
+      "status": "Paid",
+      "issuedAt": "2026-03-12T09:30:00Z",
+      "paidAt": "2026-03-12T10:00:00Z",
+      "createdAt": "2026-03-12T09:30:00Z",
+      "updatedAt": "2026-03-12T10:00:00Z"
+    },
+    {
+      "id": "INV-002",
+      "patientId": "PT-002",
+      "appointmentId": null,
+      "items": [
+        { "description": "Inpatient Stay (10 days)", "amount": 5000 },
+        { "description": "Medications", "amount": 320 },
+        { "description": "ECG & Labs", "amount": 280 }
+      ],
+      "amount": 5600,
+      "status": "Pending",
+      "issuedAt": "2026-03-12T08:30:00Z",
+      "paidAt": null,
+      "createdAt": "2026-03-12T08:30:00Z",
+      "updatedAt": "2026-03-12T08:30:00Z"
+    },
+    {
+      "id": "INV-003",
+      "patientId": "PT-003",
+      "appointmentId": "APT-003",
+      "items": [
+        { "description": "Dermatology Consultation", "amount": 200 },
+        { "description": "Prescription Fee", "amount": 50 }
+      ],
+      "amount": 250,
+      "status": "Paid",
+      "issuedAt": "2026-03-11T11:45:00Z",
+      "paidAt": "2026-03-11T12:00:00Z",
+      "createdAt": "2026-03-11T11:45:00Z",
+      "updatedAt": "2026-03-11T12:00:00Z"
+    },
+    {
+      "id": "INV-004",
+      "patientId": "PT-004",
+      "appointmentId": "APT-004",
+      "items": [{ "description": "Dermatology Follow-up", "amount": 150 }],
+      "amount": 150,
+      "status": "Pending",
+      "issuedAt": "2026-03-12T12:00:00Z",
+      "paidAt": null,
+      "createdAt": "2026-03-12T12:00:00Z",
+      "updatedAt": "2026-03-12T12:00:00Z"
+    },
+    {
+      "id": "INV-005",
+      "patientId": "PT-005",
+      "appointmentId": null,
+      "items": [
+        { "description": "Inpatient Stay (15 days)", "amount": 7500 },
+        { "description": "Arthroscopic Surgery", "amount": 3200 },
+        { "description": "Anesthesia", "amount": 800 },
+        { "description": "Physiotherapy Sessions (5)", "amount": 500 }
+      ],
+      "amount": 12000,
+      "status": "Pending",
+      "issuedAt": "2026-03-12T08:00:00Z",
+      "paidAt": null,
+      "createdAt": "2026-03-12T08:00:00Z",
+      "updatedAt": "2026-03-12T08:00:00Z"
+    },
+    {
+      "id": "INV-006",
+      "patientId": "PT-006",
+      "appointmentId": "APT-006",
+      "items": [
+        { "description": "Orthopedics Consultation", "amount": 280 },
+        { "description": "X-Ray (Right Knee)", "amount": 120 }
+      ],
+      "amount": 400,
+      "status": "Paid",
+      "issuedAt": "2026-03-12T11:15:00Z",
+      "paidAt": "2026-03-12T11:30:00Z",
+      "createdAt": "2026-03-12T11:15:00Z",
+      "updatedAt": "2026-03-12T11:30:00Z"
+    },
+    {
+      "id": "INV-007",
+      "patientId": "PT-007",
+      "appointmentId": null,
+      "items": [
+        { "description": "Inpatient Stay (7 days)", "amount": 3500 },
+        { "description": "MRI Brain", "amount": 900 },
+        { "description": "Medications", "amount": 200 }
+      ],
+      "amount": 4600,
+      "status": "Pending",
+      "issuedAt": "2026-03-12T09:00:00Z",
+      "paidAt": null,
+      "createdAt": "2026-03-12T09:00:00Z",
+      "updatedAt": "2026-03-12T09:00:00Z"
+    },
+    {
+      "id": "INV-008",
+      "patientId": "PT-008",
+      "appointmentId": "APT-008",
+      "items": [
+        { "description": "Neurology Consultation", "amount": 280 },
+        { "description": "Migraine Diary Kit", "amount": 20 }
+      ],
+      "amount": 300,
+      "status": "Paid",
+      "issuedAt": "2026-03-10T15:00:00Z",
+      "paidAt": "2026-03-10T15:20:00Z",
+      "createdAt": "2026-03-10T15:00:00Z",
+      "updatedAt": "2026-03-10T15:20:00Z"
+    },
+    {
+      "id": "INV-009",
+      "patientId": "PT-011",
+      "appointmentId": "APT-011",
+      "items": [
+        { "description": "Arthroscopic Surgery", "amount": 3200 },
+        { "description": "Anesthesia", "amount": 800 },
+        { "description": "Orthopedics Consultation", "amount": 280 }
+      ],
+      "amount": 4280,
+      "status": "Paid",
+      "issuedAt": "2026-01-28T10:00:00Z",
+      "paidAt": "2026-01-30T09:00:00Z",
+      "createdAt": "2026-01-28T10:00:00Z",
+      "updatedAt": "2026-01-30T09:00:00Z"
+    },
+    {
+      "id": "INV-010",
+      "patientId": "PT-012",
+      "appointmentId": null,
+      "items": [
+        { "description": "Inpatient Stay (2 days)", "amount": 1000 },
+        { "description": "EEG", "amount": 350 },
+        { "description": "Medications", "amount": 150 }
+      ],
+      "amount": 1500,
+      "status": "Pending",
+      "issuedAt": "2026-03-12T10:00:00Z",
+      "paidAt": null,
+      "createdAt": "2026-03-12T10:00:00Z",
+      "updatedAt": "2026-03-12T10:00:00Z"
+    }
+  ],
+
+  "dashboard": {
+    "reception": {
+      "todayAppointments": 12,
+      "completedToday": 2,
+      "cancelledToday": 1,
+      "totalPatients": 1548,
+      "inQueue": 7,
+      "withDoctor": 2,
+      "pendingBills": 6,
+      "todayRevenue": 8650,
+      "currentlyAdmitted": 4
+    },
+    "doctor": {
+      "USR-003": {
+        "todayAppointments": 4,
+        "completed": 0,
+        "ongoing": 1,
+        "scheduled": 2,
+        "cancelled": 1
+      },
+      "USR-004": {
+        "todayAppointments": 3,
+        "completed": 1,
+        "ongoing": 0,
+        "scheduled": 2,
+        "cancelled": 0
+      },
+      "USR-005": {
+        "todayAppointments": 3,
+        "completed": 0,
+        "ongoing": 1,
+        "scheduled": 2,
+        "cancelled": 0
+      },
+      "USR-006": {
+        "todayAppointments": 3,
+        "completed": 1,
+        "ongoing": 0,
+        "scheduled": 2,
+        "cancelled": 0
+      }
+    }
+  }
+}

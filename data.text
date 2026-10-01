@@ -1,0 +1,90 @@
+
+1. Get patient details
+GET /api/doctors/patients/:id
+2. Get appointment history
+GET /api/doctors/patients/:id/appointments
+
+
+
+
+
+
+{
+    "success": true,
+    "message": "Patient retrieved.",
+    "data": {
+        "emergencyContact": {
+            "name": "Samira Wagdy",
+            "phone": "0100000025",
+            "relation": "Spouse"
+        },
+        "medicalInfo": {
+            "conditions": [
+                {
+                    "name": "Osteoarthritis",
+                    "detail": "Affecting both knees",
+                    "_id": "6a087de535335e8f077032fd"
+                }
+            ],
+            "allergies": []
+        },
+        "vitals": {
+            "bloodSugar": 105,
+            "bodyWeight": 88,
+            "temperature": 36.7,
+            "bloodPressure": [
+                {
+                    "date": "2026-05-16T14:23:33.179Z",
+                    "heartRate": 82,
+                    "bp": "130/85",
+                    "_id": "6a087de535335e8f077032fe"
+                }
+            ]
+        },
+        "_id": "6a087de535335e8f077032fc",
+        "userId": {
+            "_id": "6a087de435335e8f077032fb",
+            "fullName": "Kareem Wagdy",
+            "email": "kareem@tamkeen.com",
+            "role": "patient",
+            "phone": "0100000016",
+            "gender": "male",
+            "dateOfBirth": "1968-12-01T00:00:00.000Z",
+            "address": "33 Heliopolis, Cairo",
+            "status": "active",
+            "isApprovedByAdmin": true,
+            "createdAt": "2026-05-16T14:23:32.868Z",
+            "updatedAt": "2026-05-16T14:23:32.868Z",
+            "__v": 0
+        },
+        "patientId": "PT-0006",
+        "age": 57,
+        "bloodType": "A-",
+        "occupation": "Accountant",
+        "insuranceProvider": "HealthPlus",
+        "insuranceClass": "C",
+        "patientType": "outpatient",
+        "currentStatus": "inTreatment",
+        "medications": [
+            {
+                "name": "Celecoxib",
+                "form": "Capsule",
+                "dosage": "200mg",
+                "frequency": "Once daily",
+                "startDate": "2024-11-01T00:00:00.000Z",
+                "status": "active",
+                "addedBy": {
+                    "_id": "6a087de235335e8f077032d3",
+                    "fullName": "Dr. Khaled Saber"
+                },
+                "_id": "6a087de535335e8f077032ff"
+            }
+        ],
+        "healthReports": [],
+        "patientNotes": [],
+        "activityLog": [],
+        "createdAt": "2026-05-16T14:23:33.181Z",
+        "updatedAt": "2026-05-16T14:23:33.181Z",
+        "__v": 0
+    }
+}
